@@ -27,8 +27,8 @@ Idea 8: Food Roulette — recomendador de recetas basado en ingredientes disponi
 - 📱 **Responsive**: adaptado para mobile y desktop
 
 ## Links
-- Repositorio: [URL del repositorio]
-- Deploy: [URL del deploy]
+- Repositorio: https://github.com/irinadandrea/food-roulette-grupo2
+- Deploy: proximamente
 
 ## Instrucciones de uso
 1. Abrí el sitio desde el link del deploy
