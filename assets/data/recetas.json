@@ -203,4 +203,21 @@
       "Mezclar con los fideos y salsa de soja."
     ]
   }
-]
+],
+{
+  "id": 13,
+  "nombre": "Milanesa napolitana",
+  "imagen": "🥩",
+  "ingredientes": ["carne", "huevo", "pan rallado", "tomate", "mozzarella"],
+  "tiempo": 30,
+  "dificultad": "media",
+  "categoria": "salado",
+  "descripcion": "El clásico argentino por excelencia. Crocante, con salsa y queso derretido.",
+  "pasos": [
+    "Pasar la carne por huevo batido y pan rallado.",
+    "Freír hasta dorar de ambos lados.",
+    "Colocar en asadera con salsa de tomate encima.",
+    "Agregar queso mozzarella y llevar al horno.",
+    "Gratinar 10 minutos a 200°C."
+  ]
+}
