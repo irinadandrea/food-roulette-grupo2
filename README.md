@@ -4,9 +4,9 @@
 Food Roulette es un recomendador de recetas que te ayuda a decidir qué cocinar según los ingredientes que tenés disponibles, el tiempo que tenés y el nivel de dificultad que preferís. Guardá tus recetas favoritas y volvé a encontrarlas cuando quieras.
 
 ## Integrantes
-- Nombre Apellido
-- Nombre Apellido
-- Nombre Apellido
+- Irina Sarah D'Andrea
+- Camila Belén Díaz
+- Tommy Jamiro Quispe
 
 ## Idea elegida
 Idea 8: Food Roulette — recomendador de recetas basado en ingredientes disponibles, tiempo y dificultad.
@@ -27,8 +27,8 @@ Idea 8: Food Roulette — recomendador de recetas basado en ingredientes disponi
 - 📱 **Responsive**: adaptado para mobile y desktop
 
 ## Links
-- Repositorio: [URL del repositorio]
-- Deploy: [URL del deploy]
+- Repositorio: https://github.com/irinadandrea/food-roulette-grupo2
+- Deploy: https://irinadandrea.github.io/food-roulette-grupo2/
 
 ## Instrucciones de uso
 1. Abrí el sitio desde el link del deploy
@@ -61,4 +61,7 @@ Idea 8: Food Roulette — recomendador de recetas basado en ingredientes disponi
 ```
 
 ## Uso de IA
-Se utilizaron herramientas de inteligencia artificial como asistentes de código durante el desarrollo. Ver el archivo `informe-ia.md` para más detalles.
+Se utilizaron herramientas de inteligencia artificial como asistentes de código durante el desarrollo.  
+El detalle completo está documentado en el siguiente informe:
+
+[📄 Informe de uso de Inteligencia Artificial grupo 2](https://github.com/belendiaz24/food-roulette-grupo2/blob/patch-2/Informe-IA-grupo2)

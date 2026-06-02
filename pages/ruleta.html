@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buscar Receta | Food Roulette 🎰</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+<body>
+    
+   <header>
+    <nav>
+      <a href="../index.html" class="nav-logo">
+        Food<span>Roulette</span> 🎰
+      </a>
+      
+      <ul class="nav-links" id="navLinks">
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="ruleta.html" class="activo">Buscar receta</a></li>
+        <li><a href="guardadas.html">Mis favoritas ❤️</a></li>
+      </ul>
+      
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+  </header>
+  
+  <main>
+    <section class="filtros-panel" aria-labelledby="titulo-filtros">
+      <h1 id="titulo-filtros" class="filtros-titulo">Encontrá tu receta ideal</h1>
+      <p class="filtros-subtitulo">Seleccioná los filtros para que te recomendemos qué cocinar.</p>
+
+      <form onsubmit="event.preventDefault();">
+        
+        <fieldset class="filtros-grupo" style="border: none; padding: 0; margin-bottom: 1.75rem;">
+          <legend class="filtros-label" style="margin-bottom: 0.75rem;">1. ¿Qué ingredientes tenés?</legend>
+          <div class="chips-contenedor" id="chipsIngredientes">
+            </div>
+        </fieldset>
+
+        <fieldset class="filtros-grupo" style="border: none; padding: 0; margin-bottom: 1.75rem;">
+          <legend class="filtros-label" style="margin-bottom: 0.75rem;">2. ¿Cuánto tiempo tenés?</legend>
+          <div class="selector-opciones" id="selectorTiempo">
+            <button type="button" class="selector-opcion seleccionado" data-valor="999">Sin límite</button>
+            <button type="button" class="selector-opcion" data-valor="15">Hasta 15 min</button>
+            <button type="button" class="selector-opcion" data-valor="30">Hasta 30 min</button>
+            <button type="button" class="selector-opcion" data-valor="60">Hasta 1 hora</button>
+          </div>
+        </fieldset>
+
+        <fieldset class="filtros-grupo" style="border: none; padding: 0;">
+          <legend class="filtros-label" style="margin-bottom: 0.75rem;">3. Nivel de dificultad</legend>
+          <div class="selector-opciones" id="selectorDificultad">
+            <button type="button" class="selector-opcion seleccionado" data-valor="todas">Cualquiera</button>
+            <button type="button" class="selector-opcion" data-valor="fácil">Fácil</button>
+            <button type="button" class="selector-opcion" data-valor="media">Media</button>
+            <button type="button" class="selector-opcion" data-valor="difícil">Difícil</button>
+          </div>
+        </fieldset>
+
+      </form>
+    </section>
+
+    <section aria-labelledby="titulo-resultados" style="margin-top: 2rem;">
+      <div class="resultados-header">
+        <h2 id="titulo-resultados" class="resultados-titulo">Resultados</h2>
+        <span class="resultados-cantidad" id="cantidadResultados">Cargando...</span>
+      </div>
+      
+      <div class="grilla-recetas" id="grillaRecetas">
+        </div>
+    </section>
+  </main>
+
+  <div class="modal-overlay" id="modalOverlay" role="dialog" aria-modal="true" aria-label="Detalle de receta">
+    <div class="modal" id="modalContenido">
+      <div class="modal-cerrar">
+        <button class="btn-cerrar" id="btnCerrarModal" aria-label="Cerrar modal">✕</button>
+      </div>
+      <div id="modalBody">
+        </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>
+      Hecho con <span>❤️</span> y mucha hambre &mdash; Food Roulette &copy; 2026
+    </p>
+  </footer>
+
+  <script src="../assets/js/main.js"></script>
+  <script src="../assets/js/ruleta.js"></script>
+</body>
+</html>
